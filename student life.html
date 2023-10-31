@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+				margin: 0;
+				background-color: #F8C8DC;
+			}
+			
+			#header {
+				display: flex;
+				align-items: center;
+				padding: 20px;
+				background-color: #FFD1DC; /* Updated to pastel pink */
+			}
+			
+			#header-name {
+				color: blue; /* Updated to blue */
+				font-weight: bold;
+				font-size: 18px;
+				margin: 0;
+			}
+			
+			#menu {
+				display: flex;
+				background-color: #F8C8DC;
+				justify-content: center;
+				flex-direction: row;
+			}
+			
+			#menu > div {
+				background-color: #F8C8DC;
+				padding: 10px;
+			}
+			
+			#menu div a {
+				color: blue;
+			}
+			
+			.menu-home, .menu-student-life, .menu-alumni-success-stories, .menu-pisay-resources, .menu-community-and-culture {
+				border-left: 2px solid #D988B9;
+				border-right: 2px solid #D988B9;
+			}
+
+        .tab {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .student {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .student-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            background-color: #A7C7E7;
+        }
+
+        .student-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .student-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .student-details {
+            margin-left: 15px;
+        }
+
+        .student-message {
+            background-color: #F8C8DC;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .student-message h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="header">
+			<h1 id="header-name"><span style="background-color: #FFD1DC;">PISAYINSIGHTSBYBELLA.COM</span></h1>
+		</div>
+		<div id="searchbar">
+			<img id="searchbar" src="searchbar.png">
+		</div>
+		<div id="menu-background">
+			<div id="menu">
+				<div class="menu-home"> <a href="home.html">HOME</a> </div>
+				<div class="menu-student-life"> <a href="student life.html">STUDENT LIFE</a> </div>
+				<div class="menu-alumni-success-stories"> <a href="alumni success stories.html">ALUMNI SUCCESS STORIES</a> </div>
+				<div class="menu-pisay-resources"> <a href="pisay resources.html">PISAY RESOURCES</a> </div>
+				<div class="menu-community-and-culture"> <a href="community and culture.html">COMMUNITY AND CULTURE</a> </div>
+			</div>
+		</div>
+   <div class="tab">
+        <div class="student">
+            <div class="student-info">
+                <div class="student-image">
+                    <img src="student1.jpg">
+                </div>
+                <div class="student-details">
+                    <h2>Liceralde, Clyza Yzabelle O.</h2>
+                    <p>Grade 9-Lithium</p>
+                    <p>Batch 2027</p>
+                </div>
+            </div>
+            <div class="student-message">
+                <h3>Message to Students</h3>
+                <p>A Philippine Science High School (PiSHS) student's life is an intricate balance between rigorous academics, involving a specialized science curriculum, and a myriad of extracurricular activities spanning research, science fairs, and competitions, fostering an environment where students immerse themselves in a holistic approach to learning. Challenges often revolve around the intense workload, maintaining a demanding academic performance alongside active participation in numerous clubs, competitions, and research projects, creating a dynamic and challenging yet fulfilling educational journey.</p>
+            </div>
+        </div>
+        
+        <div class="student">
+            <div class="student-info">
+                <div class="student-image">
+                    <img src="student2.jpg">
+                </div>
+                <div class="student-details">
+                    <h2>Dy, Beatrice Benedikt</h2>
+                    <p>Grade 9-Lithium</p>
+                    <p>Batch 2027</p>
+                </div>
+            </div>
+            <div class="student-message">
+                <h3>Message to Students</h3>
+                <p>Philippine Science High School (PSHS) students immerse themselves in a vibrant blend of academics and extracurricular activities, sculpting a diverse and enriching student life. The curriculum's emphasis on rigorous scientific education is complemented by an array of extracurriculars, from research projects to clubs and competitions, fostering a holistic approach to learning. Challenges are inherent in the balancing act between the demanding academic workload and active participation in various activities.</p>
+            </div>
+        </div>
+        
+        <div class="student">
+            <div class="student-info">
+                <div class="student-image">
+                    <img src="student3.jpg">
+                </div>
+                <div class="student-details">
+                    <h2>Palencia, Yeshua Alexandra V.</h2>
+                    <p>Grade 7-Sapphire</p>
+                    <p>Batch 2029</p>
+                </div>
+            </div>
+            <div class="student-message">
+                <h3>Message to Students</h3>
+                <p>A Philippine Science High School (PiSHS) student's life is an intricate balance between rigorous academics, involving a specialized science curriculum, and a myriad of extracurricular activities spanning research, science fairs, and competitions, fostering an environment where students immerse themselves in a holistic approach to learning. Challenges often revolve around the intense workload, maintaining a demanding academic performance alongside active participation in numerous clubs, competitions, and research projects. As a PSHS scholar, each day is a whirlwind of scientific exploration, from conducting experiments in state-of-the-art laboratories to engaging in intellectually stimulating discussions.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
